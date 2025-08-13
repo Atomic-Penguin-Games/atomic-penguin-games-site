@@ -7,6 +7,8 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+theme="daisy"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -14,3 +16,46 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+enable_theme_switching = true
+daisyui_theme_dark = "forest"
+daisyui_theme_light = "retro"
+
+themes = [
+    { identifier = "forest", name = "Default" },
+    { identifier = "dracula", name = "Dracula" },
+    { identifier = "retro", name = "Retro" },
+    { identifier = "lemonade", name = "Lemonade" },
+    { identifier = "light", name = "Light" },
+    { identifier = "dark", name = "Dark" },
+    { identifier = "cupcake", name = "Cupcake" },
+    { identifier = "bumblebee", name = "Bumblebee" },
+    { identifier = "emerald", name = "Emerald" },
+    { identifier = "corporate", name = "Corporate" },
+    { identifier = "synthwave", name = "Synthwave" },
+    { identifier = "cyberpunk", name = "Cyberpunk" },
+    { identifier = "valentine", name = "Valentine" },
+    { identifier = "halloween", name = "Halloween" },
+    { identifier = "garden", name = "Garden" },
+    { identifier = "aqua", name = "Aqua" },
+    { identifier = "lofi", name = "Lofi" },
+    { identifier = "pastel", name = "Pastel" },
+    { identifier = "fantasy", name = "Fantasy" },
+    { identifier = "wireframe", name = "Wireframe" },
+    { identifier = "black", name = "Black" },
+    { identifier = "luxury", name = "Luxury" },
+    { identifier = "cmyk", name = "CMYK" },
+    { identifier = "autumn", name = "Autumn" },
+    { identifier = "business", name = "Business" },
+    { identifier = "acid", name = "Acid" },
+    { identifier = "night", name = "Night" },
+    { identifier = "coffee", name = "Coffee" },
+    { identifier = "winter", name = "Winter" },
+    { identifier = "dim", name = "Dim" },
+    { identifier = "nord", name = "Nord" },
+    { identifier = "sunset", name = "Sunset" },
+    { identifier = "caramellatte", name = "Caramellatte" },
+    { identifier = "abyss", name = "Abyss" },
+    { identifier = "silk", name = "Silk" },
+    { identifier = "winterstein-light", name = "Winterstein Light" },
+    { identifier = "winterstein-dark", name = "Winterstein Dark" },
+]
